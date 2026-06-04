@@ -1182,7 +1182,7 @@ form textarea{
     box-shadow: 0 0 20px #0ef;
 }
 
-/* Web Development Project Page */
+/* Inner Projects Page */
 
 .project-page{
     min-height: 100vh;
@@ -1237,10 +1237,11 @@ form textarea{
 }
 
 .tech-stack span{
-    background: #555;
-    padding: 10px 18px;
+    background: #666;
+    padding: 8px 15px;
     border-radius: 20px;
     font-size: 14px;
+    font-weight: 500;
     color: #fff;
 }
 
