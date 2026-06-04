@@ -1085,3 +1085,108 @@ form textarea{
 .project-btn:hover{
     box-shadow: 0 0 20px #0ef;
 }
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px){
+
+    .header{
+        padding: 15px 5%;
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        font-size: 24px;
+    }
+
+    .navbar{
+        margin-top: 10px;
+    }
+
+    .navbar a{
+        font-size: 16px;
+        margin-left: 12px;
+    }
+
+    .resume-btn{
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 120px 5% 50px;
+    }
+
+    .home-content h1{
+        font-size: 45px;
+    }
+
+    .home-content h3{
+        font-size: 28px;
+    }
+
+    .home-content p{
+        font-size: 16px;
+    }
+
+    .home-image img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 5%;
+    }
+
+    .about-img img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .about-text h2{
+        font-size: 40px;
+    }
+
+    .skills-container,
+    .project-container,
+    .certificate-container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact{
+        flex-direction: column;
+        padding: 50px 5%;
+    }
+
+    .contact form{
+        width: 100%;
+    }
+
+    .contact form input,
+    .contact form textarea{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+
+    .header{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .navbar{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+}
